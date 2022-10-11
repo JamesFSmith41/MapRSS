@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="MapRSS.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+             xmlns:local="clr-namespace:MapRSS"
+             mc:Ignorable="d">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <m:Map CredentialsProvider="lEg2OjlSbq6LfeITGyN4~_iy0J4FoblaHaRnWIeKqDA~AggLxClK2WO0qhcMzp-AOBpH9hvMmFQJ3LdowU0WYcmo8JV_-hyVxBTQHRe2gF_a" x:Name="Map" />
+
+    </Grid>
+</UserControl>
